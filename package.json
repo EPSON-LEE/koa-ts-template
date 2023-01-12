@@ -12,6 +12,10 @@
 		"lint": "eslint src/** --fix",
 		"postinstall": "husky install"
 	},
+	"lint-staged": {
+		"*.js": "eslint --fix ",
+		"*.{js,css,md,html,json}": "prettier --cache --write"
+	},
 	"keywords": [],
 	"author": "",
 	"license": "ISC",
