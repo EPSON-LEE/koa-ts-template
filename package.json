@@ -9,7 +9,7 @@
 		"compile": "tsc",
 		"clear": "rimraf dist/*",
 		"format": "npx prettier --write .",
-		"lint": "eslint \"**/*.{ts,tsx}\" --fix",
+		"lint": "eslint \"src/*.{ts,tsx}\" --fix",
 		"postinstall": "husky install"
 	},
 	"lint-staged:js": "eslint --ext .js,.jsx,.ts,.tsx ",
