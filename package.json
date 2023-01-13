@@ -10,7 +10,8 @@
 		"clear": "rimraf dist/*",
 		"format": "npx prettier --write .",
 		"lint": "eslint \"src/*.{ts,tsx}\" --fix",
-		"postinstall": "husky install"
+		"postinstall": "husky install",
+		"resetFolder": "rimraf dist/*"
 	},
 	"lint-staged:js": "eslint --ext .js,.jsx,.ts,.tsx ",
 	"keywords": [],
